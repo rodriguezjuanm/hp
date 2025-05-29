@@ -1,0 +1,38 @@
+/* Enfoque Desktop-First (usando max-width): */
+/* Estilos base para computadoras de escritorio */
+.elemento { width: 25%; }
+
+/* Computadoras de escritorio medianas */
+@media (max-width: 1200px) {
+    .elemento { width: 33.33%; }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .elemento { width: 50%; }
+}
+
+/* Celulares */
+@media (max-width: 576px) {
+    .elemento { width: 100%; }
+}
+
+/* Enfoque Mobile-First (usando min-width): */
+
+/* Estilos base para celulares */
+.elemento { width: 100%; }
+
+/* Tablets */
+@media (min-width: 576px) {
+    .elemento { width: 50%; }
+}
+
+/* Computadoras de escritorio */
+@media (min-width: 992px) {
+    .elemento { width: 33.33%; }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    .elemento { width: 25%; }
+}
