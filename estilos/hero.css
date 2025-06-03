@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('../img/IMG_1874_Portada.JPG'); /* Portada principal*/
+    background-image: url('./img/IMG_1874_Portada.JPG'); /* Portada principal*/
     height: 120vh;
     width: 100%;
     background-size: cover;
